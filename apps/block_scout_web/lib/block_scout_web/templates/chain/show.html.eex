@@ -3,7 +3,7 @@
   <div class="container">
     <div class="dashboard-banner">
       <div class="dashboard-banner-chart">
-              <img class="footer-logo" src="<%= static_path(@conn, "/liger_blue.png") %>" alt="<%= subnetwork_title() %>" />
+              <img src="<%= static_path(@conn, "/liger_blue.png") %>" style="max-width: 130px" />
       </div>
       <div class="dashboard-banner-chart-legend">
         <div class="dashboard-banner-chart-legend-item">
